@@ -1,0 +1,11 @@
+body{
+    background-color: rgb(224, 175, 69)
+}
+#Menu ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+#Menu ul li{
+display: inline-block;
+    }
