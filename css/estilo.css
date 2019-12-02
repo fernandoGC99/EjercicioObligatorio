@@ -23,6 +23,9 @@ body{
         font-family:"ballpark";
     
     }
+    a{
+       color: black;
+    }
     #imagen1{
     
         position:absolute;
