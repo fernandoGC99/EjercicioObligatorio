@@ -2,6 +2,16 @@ body{
     background-color: burlywood;
     }
     
+@font-face {
+   font-family:"ballpark";
+   src: url("../fuentes/ballpark.woff");
+ }
+
+ @font-face {
+   font-family:"dayrom";
+   src: url("../fuentes/dayrom.woff");
+ }
+
     h1{
         position:relative;
         top:12px;
@@ -10,8 +20,7 @@ body{
         z-index: 3;
         width: 50%;
         height: 50%;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            
+        font-family:"ballpark";
     
     }
     #imagen1{
@@ -114,7 +123,7 @@ body{
     
      #div4{
     
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family:"dayrom";
         position:absolute;
         top: 101%;
         left: 350px;
@@ -129,7 +138,7 @@ body{
      #div5{
         
     
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-family:"dayrom";
         position:absolute;
         top: 101%;
         left: 900px;
@@ -146,7 +155,7 @@ body{
         font-size: 12px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         position:absolute;
-        top: 103%;
+        top: 104%;
         left: 900px;
         bottom: 10px;
         width: 390px;
@@ -160,7 +169,7 @@ body{
         font-size: 12px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         position:absolute;
-        top: 105%;
+        top: 106%;
         left: 900px;
         bottom: 10px;
         width: 390px;
@@ -174,7 +183,7 @@ body{
         font-size: 12px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         position:absolute;
-        top: 107%;
+        top: 108%;
         left: 900px;
         bottom: 10px;
         width: 390px;
@@ -188,7 +197,7 @@ body{
         font-size: 12px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         position:absolute;
-        top: 103%;
+        top: 104%;
         left: 1050px;
         bottom: 10px;
         width: 390px;
@@ -202,7 +211,7 @@ body{
         font-size: 12px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         position:absolute;
-        top: 105%;
+        top: 106%;
         left: 1050px;
         bottom: 10px;
         width: 390px;
@@ -343,7 +352,7 @@ body{
      #imagen11{
          
         position:absolute;
-        top:98.7%;
+        top:98.1%;
         left:600px;
         bottom: 110px;
         z-index: 3;
@@ -357,8 +366,8 @@ body{
      #imagen12{
          
         position:absolute;
-        top:58%;
-        left:73.8%;
+        top:55%;
+        left:68.7%;
         bottom: 100px;
         width: 17px;
         height: 17px;
